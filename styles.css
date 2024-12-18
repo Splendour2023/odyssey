@@ -1,0 +1,114 @@
+
+/* Apply background image to body */
+body {
+    font-family: 'Orbitron', sans-serif; /* Changed to Orbitron font */
+    margin: 0;
+    padding: 0;
+    background-image: url('sweet.jpeg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* White text for contrast */
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: rgba(30, 30, 47, 0.8); /* Dark background with transparency */
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Navigation links */
+nav {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1e90ff; /* Change link color on hover */
+}
+
+/* Portfolio Section */
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Grid layout for projects */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Project card styling */
+.project {
+    background: #552020;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect */
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #00bcd4; /* Change background color on hover */
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    background-color: rgba(30, 30, 47, 0.8);
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.contact a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #1e90ff; /* Change contact link color on hover */
+}
